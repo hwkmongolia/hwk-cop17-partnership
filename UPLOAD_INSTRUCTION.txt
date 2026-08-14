@@ -1,0 +1,2 @@
+Upload index.html and style.css to the ROOT of hwkmongolia/hwk-cop17-partnership and replace the existing files.
+Commit directly to main. GitHub Pages will redeploy automatically.
