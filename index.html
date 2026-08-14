@@ -1,56 +1,880 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width,initial-scale=1">
-  <meta name="description" content="Hiking with Knowledge NGO — COP17 partnership opportunities in Mongolia.">
-  <title>Hiking with Knowledge — COP17 Partnership</title>
-  <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Hiking with Knowledge (HWK) — UNCCD COP17 Partnership</title>
+  <meta name="description" content="Connecting People, Nature & Knowledge in Mongolia. Hiking with Knowledge (HWK) is a field-based environmental learning NGO combining outdoor science, youth engagement, and living traditional knowledge.">
+  <meta property="og:title" content="Hiking with Knowledge (HWK) — UNCCD COP17 Partnership">
+  <meta property="og:description" content="Connecting People, Nature & Knowledge in Mongolia. Explore our 3 flagship partnership opportunities for UNCCD COP17.">
+  <meta property="og:type" content="website">
+  <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-  <header class="hero">
-    <div class="wrap hero-inner">
-      <img class="logo" src="hwk-logo.png" alt="Hiking with Knowledge logo">
-      <div class="kicker">UNCCD COP17 • Ulaanbaatar 2026</div>
-      <h1>Connecting People, Nature &amp; Knowledge in Mongolia</h1>
-      <p>Hiking with Knowledge is a Mongolian field-based environmental learning NGO. We connect youth, experts and communities with biodiversity, water, land, science and traditional knowledge through direct experience.</p>
-      <div class="btns">
-        <a class="btn" href="#opportunities">View Partnership Opportunities</a>
-        <a class="btn secondary" href="#contact">Request a Follow-up</a>
-      </div>
+
+  <!-- ======================================================================
+       HEADER & NAVIGATION
+       ====================================================================== -->
+  <header class="site-header" id="site-header">
+    <div class="container header-container">
+      <a href="#hero" class="brand-link" id="brand-logo" aria-label="Hiking with Knowledge Homepage">
+        <img src="hwk-logo.png" alt="Hiking with Knowledge logo" class="brand-logo-img" width="38" height="38">
+        <div class="brand-text">
+          <span class="brand-title">Hiking with Knowledge</span>
+          <span class="brand-sub">Mongolia • UNCCD COP17</span>
+        </div>
+      </a>
+
+      <button class="mobile-menu-toggle" id="mobile-menu-toggle" aria-expanded="false" aria-label="Toggle navigation menu">
+        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+          <line x1="3" y1="12" x2="21" y2="12"></line>
+          <line x1="3" y1="6" x2="21" y2="6"></line>
+          <line x1="3" y1="18" x2="21" y2="18"></line>
+        </svg>
+      </button>
+
+      <nav aria-label="Main Navigation">
+        <ul class="nav-links" id="nav-links">
+          <li><a href="#living-classroom" class="nav-link">About</a></li>
+          <li><a href="#from-the-field" class="nav-link">From the Field</a></li>
+          <li><a href="#our-model" class="nav-link">Our Model</a></li>
+          <li><a href="#people" class="nav-link">People</a></li>
+          <li><a href="#partnership-opportunities" class="nav-link">Partnership Opportunities</a></li>
+          <li><a href="#resources" class="nav-link">Resources</a></li>
+          <li><a href="#partnership-form" class="header-cta-btn" id="nav-cta-btn">Start a Partnership Conversation</a></li>
+        </ul>
+      </nav>
     </div>
   </header>
 
   <main>
-    <section><div class="wrap"><div class="kicker">Who We Are</div><h2>Nature becomes the classroom.</h2><p>HWK turns outdoor experiences into practical environmental learning. Young people learn alongside researchers, conservation practitioners, rangers and local knowledge holders.</p></div></section>
+    <!-- ====================================================================
+         01 — IMMERSIVE HERO
+         ==================================================================== -->
+    <section class="hero-section" id="hero">
+      <div class="container">
+        <div class="hero-grid">
+          <div class="hero-content">
+            <div class="hero-eyebrow">
+              <span class="hero-eyebrow-dot" aria-hidden="true"></span>
+              <span>HIKING WITH KNOWLEDGE NGO • MONGOLIA</span>
+            </div>
 
-    <section class="white"><div class="wrap"><div class="kicker">Our Model</div><h2>Hike → Learn → Experience → Care → Protect</h2><div class="model">
-      <div class="step"><b>Hike</b>Enter landscapes through guided field learning.</div>
-      <div class="step"><b>Learn</b>Build knowledge with experts and knowledge holders.</div>
-      <div class="step"><b>Experience</b>Observe biodiversity, water, land and cultural landscapes.</div>
-      <div class="step"><b>Care</b>Connect knowledge with responsibility.</div>
-      <div class="step"><b>Protect</b>Turn understanding into practical action.</div>
-    </div></div></section>
+            <h1 class="hero-title" id="hero-headline">Connecting People, Nature & Knowledge in Mongolia</h1>
 
-    <section><div class="wrap"><div class="kicker">Why Mongolia / Why HWK</div><h2>Field learning where biodiversity, water, land and living knowledge meet.</h2><p>Mongolia offers a powerful setting for field-based environmental learning across forests, wetlands, river systems, rangelands and cultural landscapes. HWK contributes local field experience, youth engagement and access to expert-led learning formats.</p></div></section>
+            <p class="hero-lead">
+              We turn Mongolia’s landscapes into places for field-based environmental learning — connecting young people and communities with science, biodiversity, water, land and traditional knowledge.
+            </p>
 
-    <section id="opportunities" class="band"><div class="wrap"><div class="kicker">Partnership Opportunities</div><h2>Choose the area that best fits your priorities.</h2><div class="grid3">
-      <article class="card"><img src="biodiversity-in-field.jpg" alt="Biodiversity field learning"><div class="pad"><h3>Biodiversity in the Field</h3><b>Youth &amp; Biodiversity</b><p>Connect young people with biodiversity observation, scientific learning and environmental responsibility.</p></div></article>
-      <article class="card"><img src="connected-waters.jpg" alt="Eurasian beaver beside freshwater habitat"><div class="pad"><h3>Connected Waters</h3><b>Water &amp; Ecosystem</b><p>Use rivers, wetlands and freshwater biodiversity to strengthen water and ecosystem learning.</p></div></article>
-      <article class="card"><img src="living-rangelands.jpg" alt="Living rangelands and nomadic knowledge field learning"><div class="pad"><h3>Living Rangelands</h3><b>Rangeland, Nomadic Knowledge &amp; Youth</b><p>Connect youth with rangeland stewardship, seasonal pasture knowledge and Mongolia’s living nomadic knowledge.</p></div></article>
-    </div></div></section>
+            <div class="hero-themes-bar">
+              <span class="theme-tag">Youth</span>
+              <span class="theme-sep">•</span>
+              <span class="theme-tag">Science</span>
+              <span class="theme-sep">•</span>
+              <span class="theme-tag">Biodiversity</span>
+              <span class="theme-sep">•</span>
+              <span class="theme-tag">Water</span>
+              <span class="theme-sep">•</span>
+              <span class="theme-tag">Land</span>
+              <span class="theme-sep">•</span>
+              <span class="theme-tag">Traditional Knowledge</span>
+            </div>
 
-    <section><div class="wrap"><div class="kicker">How Partners Can Engage</div><h2>From funding to technical collaboration.</h2><p class="engage">Programme funding / sponsorship • Technical expertise • Research collaboration • Institutional partnership • Youth/community engagement • Co-created programmes</p></div></section>
+            <div class="hero-cta-group">
+              <a href="#partnership-form" class="btn btn-primary" id="hero-primary-cta">
+                <span>Start a Partnership Conversation</span>
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg>
+              </a>
+              <a href="#from-the-field" class="btn btn-secondary" id="hero-secondary-cta">
+                <span>Explore the Field</span>
+              </a>
+            </div>
 
-    <section class="white" id="resources"><div class="wrap"><div class="kicker">Partnership Resources</div><h2>Briefs and concepts</h2><div class="resources">
-      <div class="resource-card"><div><h3>1-page Partnership Brief</h3><p class="small">Hiking with Knowledge — COP17 partnership overview.</p></div><a class="btn resource" href="HWK_Partnership_Brief.pdf">Open Partnership Brief</a></div>
-      <div class="resource-card"><div><h3>Biodiversity in the Field</h3><p class="small">Youth &amp; Biodiversity — FINAL Concept Note.</p></div><a class="btn resource" href="Biodiversity_in_the_Field.pdf">Open Concept Note</a></div>
-      <div class="resource-card"><div><h3>Connected Waters</h3><p class="small">Water &amp; Ecosystem — FINAL Concept Note.</p></div><a class="btn resource" href="Connected_Waters.pdf">Open Concept Note</a></div>
-      <div class="resource-card"><div><h3>Living Rangelands</h3><p class="small">Rangeland, Nomadic Knowledge &amp; Youth — FINAL Concept Note.</p></div><a class="btn resource" href="Living_Rangelands.pdf">Open Concept Note</a></div>
-    </div><div class="kicker" style="margin-top:40px">Selected Field-Learning Examples</div><div class="examples"><span class="pill">Eurasian Beaver</span><span class="pill">Hidden Small Worlds</span><span class="pill">Freshwater &amp; Migratory Birds</span></div></div></section>
+            <div class="hero-meta-grid">
+              <div class="meta-item">
+                <span class="meta-label">Status</span>
+                <span class="meta-value">Operating as NGO since 2024</span>
+              </div>
+              <div class="meta-item">
+                <span class="meta-label">Approach</span>
+                <span class="meta-value">Field-Based Learning</span>
+              </div>
+              <div class="meta-item">
+                <span class="meta-label">Engagement</span>
+                <span class="meta-value">Youth & Intergenerational</span>
+              </div>
+              <div class="meta-item">
+                <span class="meta-label">Platform</span>
+                <span class="meta-value">UNCCD COP17 Mongolia</span>
+              </div>
+            </div>
+          </div>
 
-    <section id="contact"><div class="wrap contact"><div><div class="kicker">Next Step</div><h2>Let’s identify one practical collaboration after COP17.</h2><p>Tell us which opportunity fits your work, and we can share the matching concept and arrange a focused follow-up conversation.</p><div class="btns"><a class="btn" href="mailto:hikingwithknowledge@gmail.com?subject=HWK%20COP17%20Partnership%20Follow-up">Request a Follow-up</a></div></div><aside class="contact-box"><h3>Hiking with Knowledge NGO</h3><p><a href="mailto:hikingwithknowledge@gmail.com">hikingwithknowledge@gmail.com</a><br><a href="tel:+97699701806">+976 9970 1806</a><br><a href="tel:+97688204089">+976 8820 4089</a><br>Instagram @hwk_mongolia</p></aside></div></section>
+          <div class="hero-visual-col">
+            <div class="hero-visual-card">
+              <img src="hero-field.jpg" alt="Mongolian youth and students on field-based environmental learning hike across Mongolian steppe with binoculars and notebooks" class="hero-photo" width="720" height="480">
+              <div class="hero-visual-badge">
+                <span class="badge-icon">🌿</span>
+                <div class="badge-text">
+                  <strong>Living Field Classrooms</strong>
+                  <span>Youth, Science & Nature in Mongolia</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ====================================================================
+         02 — MONGOLIA IS OUR LIVING CLASSROOM
+         ==================================================================== -->
+    <section class="section living-classroom-section" id="living-classroom">
+      <div class="container">
+        <div class="editorial-header">
+          <span class="eyebrow">WHY MONGOLIA • WHY HWK</span>
+          <h2 class="section-title">Mongolia Is Our Living Classroom</h2>
+        </div>
+
+        <div class="classroom-layout">
+          <div class="classroom-text-col">
+            <p class="lead-text">
+              Forests, steppe landscapes, rivers, wetlands, wildlife habitats, migratory bird routes and nomadic heritage create extraordinary opportunities to learn directly from place.
+            </p>
+            <p>
+              HWK brings people into these environments to explore the connections between biodiversity, water, land and human knowledge through guided field learning.
+            </p>
+            
+            <div class="evidence-quote-box">
+              <h3 class="quote-headline">Nature becomes the classroom.</h3>
+              <p class="quote-sub">
+                Field observation is combined with knowledge from researchers, conservation practitioners, educators, rangers and local knowledge holders.
+              </p>
+            </div>
+
+            <p class="closing-statement">
+              We do not simply visit nature. We use direct experience to make environmental relationships visible and understandable.
+            </p>
+          </div>
+
+          <div class="classroom-visual-col">
+            <div class="classroom-image-stack">
+              <div class="stack-main-img">
+                <img src="connected-waters.jpg" alt="Expansive Mongolian wetland and migratory flyway ecosystem" loading="lazy" width="600" height="380">
+                <span class="img-caption">Wetland and steppe landscapes of Mongolia</span>
+              </div>
+              <div class="stack-sub-img">
+                <img src="biodiversity-in-field.jpg" alt="Youth hands-on botanical observation in the field" loading="lazy" width="320" height="220">
+                <span class="img-caption">Hands-on field observation</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ====================================================================
+         03 — FROM THE FIELD (EDITORIAL STORIES)
+         ==================================================================== -->
+    <section class="section section-muted" id="from-the-field">
+      <div class="container">
+        <div class="section-header text-center">
+          <span class="eyebrow">REAL FIELD LEARNING</span>
+          <h2 class="section-title">Knowledge Begins With Seeing for Yourself</h2>
+          <p class="section-desc max-w-3xl">
+            HWK field experiences bring participants closer to species, ecosystems and the people who understand them. A bird, an insect, a wetland or a river can become the starting point for understanding a much larger environmental system.
+          </p>
+        </div>
+
+        <div class="field-stories-container">
+          
+          <!-- Story 01: Forest Birds -->
+          <article class="field-story-card layout-60-40" id="story-forest-birds">
+            <div class="story-visual">
+              <img src="evidence-birds.jpg" alt="Mongolian youth observing forest birds and migratory waterbirds with spotting scope and binoculars" loading="lazy" width="700" height="440">
+              <span class="story-img-badge">Bogd Khan Mountain • Biodiversity</span>
+            </div>
+            <div class="story-content">
+              <span class="story-label">BOGD KHAN MOUNTAIN • BIODIVERSITY</span>
+              <h3 class="story-title">Learning to Read a Forest Through Birds</h3>
+              <p class="story-text">
+                Bird observation opens a window into the wider forest ecosystem. Participants learn to use binoculars, spotting scopes and field guides while exploring how birds live within their habitats.
+              </p>
+              <p class="story-text">
+                With expert guidance, observation becomes more than identification — it becomes a way to understand biodiversity, ecological relationships and why habitats matter.
+              </p>
+              <div class="story-evidence-box">
+                <strong>HWK Evidence:</strong> HWK’s existing forest bird programme combines field observation, bird identification, equipment skills and forest-ecosystem learning at Bogd Khan Mountain.
+              </div>
+              <div class="story-connection">
+                <span>Field observation → scientific curiosity → biodiversity awareness</span>
+              </div>
+            </div>
+          </article>
+
+          <!-- Story 02: Connected Waters at Khun Lake -->
+          <article class="field-story-card layout-40-60 reverse-layout" id="story-connected-waters">
+            <div class="story-visual">
+              <img src="connected-waters.jpg" alt="Khun Lake wetland ecosystem and migratory waterbird shoreline" loading="lazy" width="700" height="440">
+              <span class="story-img-badge">Khun Lake • Tuul River • Wetland Learning</span>
+            </div>
+            <div class="story-content">
+              <span class="story-label">KHUN LAKE • TUUL RIVER • WETLAND LEARNING</span>
+              <h3 class="story-title">Follow the Birds. Discover the Wetland.</h3>
+              <p class="story-text">
+                A wetland is more than water. At Khun Lake and along the Tuul River, participants can explore waterbirds, aquatic life and the habitat relationships that connect water, land and biodiversity.
+              </p>
+              <p class="story-text">
+                Observation with binoculars and field guides can be combined with learning about wetland ecosystems and aquatic invertebrates.
+              </p>
+              <div class="story-evidence-box">
+                <strong>HWK Evidence:</strong> HWK’s waterbird field activities connect Khun Lake, Songino Bay and the Tuul River with wetland learning, waterbird observation and basic aquatic-invertebrate learning.
+              </div>
+              <div class="story-connection">
+                <span>See the habitat → understand the connections → care about the system</span>
+              </div>
+            </div>
+          </article>
+
+          <!-- Story 03: Eurasian Beaver -->
+          <article class="field-story-card layout-60-40" id="story-beaver">
+            <div class="story-visual">
+              <img src="evidence-beaver.jpg" alt="Eurasian beaver habitat along the Tuul River basin with willow thickets and wetlands" loading="lazy" width="700" height="440">
+              <span class="story-img-badge">Water • Wetlands • Ecosystem Connections</span>
+            </div>
+            <div class="story-content">
+              <span class="story-label">WATER • WETLANDS • ECOSYSTEM CONNECTIONS</span>
+              <h3 class="story-title">One Species Can Reveal an Entire River System</h3>
+              <p class="story-text">
+                Beaver ecology provides a practical way to explore how water, vegetation, wetlands and biodiversity interact.
+              </p>
+              <p class="story-text">
+                By learning how beavers build dams and channels and alter local habitat conditions, participants can begin to see a river not as an isolated waterway, but as a connected ecological system.
+              </p>
+              <div class="story-evidence-box">
+                <strong>HWK Evidence:</strong> HWK uses Eurasian beaver ecology, the Tuul River ecosystem, water pollution and freshwater biodiversity as field-learning themes.
+              </div>
+              <div class="story-connection">
+                <span>Species → habitat → water → biodiversity → stewardship</span>
+              </div>
+            </div>
+          </article>
+
+          <!-- Story 04: Hidden Small Worlds -->
+          <article class="field-story-card layout-40-60 reverse-layout" id="story-macro-insects">
+            <div class="story-visual">
+              <img src="evidence-insects.jpg" alt="Close-up macro photography of pollinators and wild mountain flowers in Bogd Khan Mountain" loading="lazy" width="700" height="440">
+              <span class="story-img-badge">Insects • Macro Photography • Biodiversity</span>
+            </div>
+            <div class="story-content">
+              <span class="story-label">INSECTS • MACRO PHOTOGRAPHY • BIODIVERSITY</span>
+              <h3 class="story-title">See Closer. Learn Deeper.</h3>
+              <p class="story-text">
+                Some of the most powerful biodiversity lessons begin with organisms small enough to overlook.
+              </p>
+              <p class="story-text">
+                Macro photography encourages participants to slow down, observe structure and behaviour, compare what they see and turn close observation into questions about adaptation, pollination, food webs and ecosystem roles.
+              </p>
+              <div class="story-evidence-box">
+                <strong>Learning Sequence:</strong> Observe → Photograph → Identify → Share
+              </div>
+              <div class="story-connection">
+                <span>When biodiversity becomes visible, it becomes easier to understand and value.</span>
+              </div>
+            </div>
+          </article>
+
+        </div>
+
+        <!-- Supporting Field Experiences Mosaic -->
+        <div class="supporting-mosaic-header">
+          <h3 class="mosaic-section-title">Supporting Field Experiences Across Mongolia</h3>
+        </div>
+
+        <div class="supporting-mosaic-grid">
+          <div class="mosaic-item">
+            <div class="mosaic-img-wrap">
+              <img src="story-takhi.jpg" alt="Wild Takhi Przewalski horses grazing on golden-green steppe hills in Hustai National Park" loading="lazy" width="400" height="240">
+            </div>
+            <div class="mosaic-text">
+              <h4 class="mosaic-title">Takhi & Wildlife</h4>
+              <p class="mosaic-desc">
+                Learn how wildlife protection and reintroduction can open wider conversations about habitats and conservation.
+              </p>
+              <span class="mosaic-meta">Hustai National Park</span>
+            </div>
+          </div>
+
+          <div class="mosaic-item">
+            <div class="mosaic-img-wrap">
+              <img src="evidence-ranger.jpg" alt="National park ranger guiding students on patrol work and camera-trap monitoring" loading="lazy" width="400" height="240">
+            </div>
+            <div class="mosaic-text">
+              <h4 class="mosaic-title">A Day With a Ranger</h4>
+              <p class="mosaic-desc">
+                Experience conservation through the people working directly in protected areas — from patrol and monitoring to wildlife tracks and camera traps.
+              </p>
+              <span class="mosaic-meta">Bogd Khan Strictly Protected Area</span>
+            </div>
+          </div>
+
+          <div class="mosaic-item">
+            <div class="mosaic-img-wrap">
+              <img src="story-flora.jpg" alt="Siberian larch forest floor botany, wild berries and alpine flora" loading="lazy" width="400" height="240">
+            </div>
+            <div class="mosaic-text">
+              <h4 class="mosaic-title">Forest Flora</h4>
+              <p class="mosaic-desc">
+                Learn to notice forest plant communities, lichens and mushrooms and understand vegetation as part of the wider ecosystem.
+              </p>
+              <span class="mosaic-meta">Southern Khentii Taiga Transition</span>
+            </div>
+          </div>
+
+          <div class="mosaic-item">
+            <div class="mosaic-img-wrap">
+              <img src="living-rangelands.jpg" alt="Nomadic herder family sharing pasture knowledge and seasonal movements with students" loading="lazy" width="400" height="240">
+            </div>
+            <div class="mosaic-text">
+              <h4 class="mosaic-title">Nomadic Heritage</h4>
+              <p class="mosaic-desc">
+                Explore how seasonal movement, pasture conditions, livestock and traditional knowledge connect people with Mongolia’s rangelands.
+              </p>
+              <span class="mosaic-meta">Steppe Pastoral Landscapes</span>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ====================================================================
+         04 — OUR MODEL (DEEP FOREST-GREEN PAUSE)
+         ==================================================================== -->
+    <section class="section model-section-dark" id="our-model">
+      <div class="container">
+        <div class="section-header text-center">
+          <span class="eyebrow eyebrow-light">THE HWK APPROACH</span>
+          <h2 class="section-title text-white">Hike → Learn → Experience → Care → Protect</h2>
+        </div>
+
+        <div class="model-sequence-grid">
+          <div class="model-seq-card">
+            <span class="seq-step">01</span>
+            <h3 class="seq-name">HIKE</h3>
+            <p class="seq-desc">Enter Mongolia’s landscapes through guided field learning.</p>
+          </div>
+
+          <div class="model-seq-card">
+            <span class="seq-step">02</span>
+            <h3 class="seq-name">LEARN</h3>
+            <p class="seq-desc">Build knowledge with researchers, conservationists and local knowledge holders.</p>
+          </div>
+
+          <div class="model-seq-card">
+            <span class="seq-step">03</span>
+            <h3 class="seq-name">EXPERIENCE</h3>
+            <p class="seq-desc">Observe biodiversity, water, land and cultural landscapes directly.</p>
+          </div>
+
+          <div class="model-seq-card">
+            <span class="seq-step">04</span>
+            <h3 class="seq-name">CARE</h3>
+            <p class="seq-desc">Connect knowledge with responsibility for people and ecosystems.</p>
+          </div>
+
+          <div class="model-seq-card">
+            <span class="seq-step">05</span>
+            <h3 class="seq-name">PROTECT</h3>
+            <p class="seq-desc">Turn understanding into practical environmental action.</p>
+          </div>
+        </div>
+
+        <div class="model-closing-quote">
+          <p>“Experience builds connection. Connection inspires care. Care supports protection.”</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- ====================================================================
+         05 — PEOPLE BEHIND THE LEARNING
+         ==================================================================== -->
+    <section class="section" id="people">
+      <div class="container">
+        <div class="section-header text-center">
+          <span class="eyebrow">KNOWLEDGE IN THE FIELD</span>
+          <h2 class="section-title">Learning With People Who Know the Landscape</h2>
+          <p class="section-desc max-w-3xl">
+            HWK brings practical knowledge into the field by connecting participants with researchers, conservation practitioners, educators, rangers and local knowledge holders.
+          </p>
+          <p class="section-desc max-w-3xl" style="margin-top: 0.5rem;">
+            Their role is not simply to give a lecture. They help participants observe more carefully, ask better questions and connect what they see with wider environmental systems.
+          </p>
+        </div>
+
+        <div class="people-profiles-grid">
+          <!-- Verified Profile 1: O. Altantuya -->
+          <div class="person-card">
+            <div class="person-img-wrap">
+              <img src="expert-altantuya.jpg" alt="O. Altantuya, Environmental Chemist, PhD" loading="lazy" width="360" height="450">
+            </div>
+            <div class="person-info">
+              <h3 class="person-name">O. Altantuya</h3>
+              <span class="person-role">Environmental Chemist, PhD</span>
+              <p class="person-bio">
+                Supports environmental chemistry, water quality and field learning connected with freshwater ecosystems.
+              </p>
+            </div>
+          </div>
+
+          <!-- Verified Profile 2: U. Tuvshin -->
+          <div class="person-card">
+            <div class="person-img-wrap">
+              <img src="expert-tuvshin.jpg" alt="U. Tuvshin, Ornithologist" loading="lazy" width="360" height="450">
+            </div>
+            <div class="person-info">
+              <h3 class="person-name">U. Tuvshin</h3>
+              <span class="person-role">Ornithologist</span>
+              <p class="person-bio">
+                Supports birdwatching and field learning connected with forest and wetland ecosystems.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ====================================================================
+         06 — THREE WAYS TO PARTNER
+         ==================================================================== -->
+    <section class="section section-muted" id="partnership-opportunities">
+      <div class="container">
+        <div class="section-header text-center">
+          <span class="eyebrow">PARTNERSHIP OPPORTUNITIES</span>
+          <h2 class="section-title">Three Ways to Build Field Learning Together</h2>
+          <p class="section-desc max-w-3xl">
+            HWK is developing three practical opportunities for organizations interested in youth, biodiversity, water, land and traditional knowledge. Each can be co-created with partners through funding, expertise, research, education and institutional collaboration.
+          </p>
+        </div>
+
+        <div class="partnership-panels-stack">
+          
+          <!-- Opportunity 01: Biodiversity in the Field -->
+          <div class="partner-panel" id="opp-biodiversity">
+            <div class="panel-visual">
+              <img src="biodiversity-in-field.jpg" alt="Students observing native flora and biodiversity in the field in Mongolia" loading="lazy" width="600" height="420">
+              <span class="panel-num-tag">OPPORTUNITY 01</span>
+            </div>
+            <div class="panel-body">
+              <span class="panel-subtitle">Youth & Biodiversity</span>
+              <h3 class="panel-title">Biodiversity in the Field</h3>
+              <p class="panel-lead">
+                A youth field-learning programme that turns direct observation of biodiversity into scientific learning, curiosity and responsibility toward nature.
+              </p>
+              
+              <div class="panel-explore-box">
+                <strong>Explore through:</strong>
+                <p>Birds • Insects & Pollinators • Forest Plants • Wildlife • Wetland Biodiversity</p>
+              </div>
+
+              <div class="panel-relevance-box">
+                <strong>Partnership Relevance:</strong>
+                <p>Partners can support programme development, scientific expertise, field equipment, educational resources, research collaboration and appropriate citizen-science methodology.</p>
+              </div>
+
+              <div class="panel-actions">
+                <button class="btn btn-primary" data-select-opportunity="Biodiversity in the Field">
+                  <span>Discuss This Opportunity</span>
+                  <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg>
+                </button>
+                <a href="./Biodiversity_in_the_Field.pdf" target="_blank" rel="noopener noreferrer" class="btn btn-secondary">
+                  <span>View Concept Note</span>
+                  <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path><polyline points="15 3 21 3 21 9"></polyline><line x1="10" y1="14" x2="21" y2="3"></line></svg>
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Opportunity 02: Connected Waters -->
+          <div class="partner-panel reverse-panel" id="opp-waters">
+            <div class="panel-visual">
+              <img src="connected-waters.jpg" alt="Freshwater lake and wetland ecosystem along Mongolian migratory routes" loading="lazy" width="600" height="420">
+              <span class="panel-num-tag">OPPORTUNITY 02</span>
+            </div>
+            <div class="panel-body">
+              <span class="panel-subtitle">Water & Ecosystem</span>
+              <h3 class="panel-title">Connected Waters</h3>
+              <p class="panel-lead">
+                A field-based programme connecting freshwater ecosystems, wetlands, biodiversity and water stewardship through practical environmental learning.
+              </p>
+              
+              <div class="panel-explore-box">
+                <strong>Explore through:</strong>
+                <p>Rivers • Wetlands • Aquatic Life • Waterbirds • Beaver Ecology • Water Stewardship</p>
+              </div>
+
+              <div class="panel-relevance-box">
+                <strong>Partnership Relevance:</strong>
+                <p>Partners can contribute freshwater and wetland expertise, biodiversity research, technical capacity, equipment, educational resources, research or monitoring collaboration and programme support.</p>
+              </div>
+
+              <div class="panel-actions">
+                <button class="btn btn-primary" data-select-opportunity="Connected Waters">
+                  <span>Discuss This Opportunity</span>
+                  <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg>
+                </button>
+                <a href="./Connected_Waters.pdf" target="_blank" rel="noopener noreferrer" class="btn btn-secondary">
+                  <span>View Concept Note</span>
+                  <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path><polyline points="15 3 21 3 21 9"></polyline><line x1="10" y1="14" x2="21" y2="3"></line></svg>
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Opportunity 03: Living Rangelands -->
+          <div class="partner-panel" id="opp-rangelands">
+            <div class="panel-visual">
+              <img src="living-rangelands.jpg" alt="Nomadic herder sharing traditional pasture knowledge and ecological wisdom with students" loading="lazy" width="600" height="420">
+              <span class="panel-num-tag">OPPORTUNITY 03</span>
+            </div>
+            <div class="panel-body">
+              <span class="panel-subtitle">Rangeland, Nomadic Knowledge & Youth</span>
+              <h3 class="panel-title">Living Rangelands</h3>
+              <p class="panel-lead">
+                An intergenerational field-learning programme connecting young people with rangeland stewardship, seasonal pasture knowledge and Mongolia’s living nomadic knowledge.
+              </p>
+              
+              <div class="panel-explore-box">
+                <strong>Explore through:</strong>
+                <p>Seasonal Movement • Pasture Knowledge • Land & Livestock • Herder Knowledge • Youth Learning</p>
+              </div>
+
+              <div class="panel-relevance-box">
+                <strong>Partnership Relevance:</strong>
+                <p>Partners can contribute technical expertise, research methods, educational resources, networks or funding while supporting dialogue between young people, herders and relevant specialists.</p>
+              </div>
+
+              <div class="panel-actions">
+                <button class="btn btn-primary" data-select-opportunity="Living Rangelands">
+                  <span>Discuss This Opportunity</span>
+                  <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg>
+                </button>
+                <a href="./Living_Rangelands.pdf" target="_blank" rel="noopener noreferrer" class="btn btn-secondary">
+                  <span>View Concept Note</span>
+                  <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path><polyline points="15 3 21 3 21 9"></polyline><line x1="10" y1="14" x2="21" y2="3"></line></svg>
+                </a>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ====================================================================
+         07 — WHAT PARTNERSHIP CAN UNLOCK (DARK INSTITUTIONAL SECTION)
+         ==================================================================== -->
+    <section class="section institutional-dark-section" id="what-partnership-unlocks">
+      <div class="container">
+        <div class="section-header text-center">
+          <span class="eyebrow eyebrow-light">PARTNER WITH HWK</span>
+          <h2 class="section-title text-white">Let’s Build Practical Partnerships in Mongolia</h2>
+          <p class="section-desc text-muted-light max-w-3xl">
+            HWK provides a field-learning platform that connects people, landscapes and knowledge. Partnerships can help deepen the science, strengthen educational content, expand technical capacity and develop new opportunities for young people and communities to learn directly from Mongolia’s environments.
+          </p>
+        </div>
+
+        <div class="unlock-grid">
+          <!-- HWK Brings -->
+          <div class="unlock-card">
+            <h3 class="unlock-title">HWK BRINGS</h3>
+            <ul class="unlock-list">
+              <li>
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                <span>Field learning</span>
+              </li>
+              <li>
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                <span>Local knowledge</span>
+              </li>
+              <li>
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                <span>Youth engagement</span>
+              </li>
+              <li>
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                <span>Educational delivery</span>
+              </li>
+              <li>
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                <span>Connections with specialists and knowledge holders</span>
+              </li>
+            </ul>
+          </div>
+
+          <!-- Partners Can Contribute -->
+          <div class="unlock-card">
+            <h3 class="unlock-title">PARTNERS CAN CONTRIBUTE</h3>
+            <ul class="unlock-list">
+              <li>
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                <span>Funding</span>
+              </li>
+              <li>
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                <span>Expertise</span>
+              </li>
+              <li>
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                <span>Research and methods</span>
+              </li>
+              <li>
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                <span>Educational content</span>
+              </li>
+              <li>
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                <span>Equipment and resources</span>
+              </li>
+              <li>
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                <span>Networks</span>
+              </li>
+              <li>
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                <span>Institutional support</span>
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="unlock-cta-block">
+          <p class="unlock-closing-text">
+            Bring your expertise, resources or networks. Let’s identify where they can connect with HWK’s field-learning work.
+          </p>
+          <a href="#partnership-form" class="btn btn-primary btn-large" id="unlock-primary-cta">
+            <span>Start a Partnership Conversation</span>
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ====================================================================
+         08 — RESOURCES FOR PARTNERS (EDITORIAL DOCUMENT INDEX)
+         ==================================================================== -->
+    <section class="section" id="resources">
+      <div class="container">
+        <div class="section-header text-center">
+          <span class="eyebrow">GO DEEPER</span>
+          <h2 class="section-title">Explore the Partnership Resources</h2>
+          <p class="section-desc max-w-3xl">
+            Begin with the one-page overview or open the concept most relevant to your organization.
+          </p>
+        </div>
+
+        <div class="resources-editorial-list">
+          
+          <!-- Document 01 -->
+          <div class="res-item">
+            <div class="res-num">01</div>
+            <div class="res-info">
+              <h3 class="res-name">Hiking with Knowledge — Partnership Brief</h3>
+              <p class="res-summary">A concise overview of HWK, the field-learning approach and opportunities for collaboration.</p>
+            </div>
+            <div class="res-link-col">
+              <a href="./HWK_Partnership_Brief.pdf" target="_blank" rel="noopener noreferrer" class="btn btn-secondary res-btn">
+                <span>View Partnership Brief</span>
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path><polyline points="15 3 21 3 21 9"></polyline><line x1="10" y1="14" x2="21" y2="3"></line></svg>
+              </a>
+            </div>
+          </div>
+
+          <!-- Document 02 -->
+          <div class="res-item">
+            <div class="res-num">02</div>
+            <div class="res-info">
+              <h3 class="res-name">Biodiversity in the Field — Concept Note</h3>
+              <p class="res-summary">Youth & Biodiversity</p>
+            </div>
+            <div class="res-link-col">
+              <a href="./Biodiversity_in_the_Field.pdf" target="_blank" rel="noopener noreferrer" class="btn btn-secondary res-btn">
+                <span>View Concept Note</span>
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path><polyline points="15 3 21 3 21 9"></polyline><line x1="10" y1="14" x2="21" y2="3"></line></svg>
+              </a>
+            </div>
+          </div>
+
+          <!-- Document 03 -->
+          <div class="res-item">
+            <div class="res-num">03</div>
+            <div class="res-info">
+              <h3 class="res-name">Connected Waters — Concept Note</h3>
+              <p class="res-summary">Water & Ecosystem</p>
+            </div>
+            <div class="res-link-col">
+              <a href="./Connected_Waters.pdf" target="_blank" rel="noopener noreferrer" class="btn btn-secondary res-btn">
+                <span>View Concept Note</span>
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path><polyline points="15 3 21 3 21 9"></polyline><line x1="10" y1="14" x2="21" y2="3"></line></svg>
+              </a>
+            </div>
+          </div>
+
+          <!-- Document 04 -->
+          <div class="res-item">
+            <div class="res-num">04</div>
+            <div class="res-info">
+              <h3 class="res-name">Living Rangelands — Concept Note</h3>
+              <p class="res-summary">Rangeland, Nomadic Knowledge & Youth</p>
+            </div>
+            <div class="res-link-col">
+              <a href="./Living_Rangelands.pdf" target="_blank" rel="noopener noreferrer" class="btn btn-secondary res-btn">
+                <span>View Concept Note</span>
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path><polyline points="15 3 21 3 21 9"></polyline><line x1="10" y1="14" x2="21" y2="3"></line></svg>
+              </a>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ====================================================================
+         09 — START A PARTNERSHIP CONVERSATION
+         ==================================================================== -->
+    <section class="section section-muted" id="partnership-form">
+      <div class="container">
+        <div class="form-contact-grid">
+          <!-- Form Panel -->
+          <div class="form-wrapper">
+            <div class="form-header-area">
+              <span class="eyebrow">YOUR NEXT STEP</span>
+              <h2 class="form-title" id="form-heading">Start a Partnership Conversation</h2>
+              <p class="form-subtitle">
+                Interested in biodiversity, water, rangelands, youth learning, research or another form of collaboration?
+              </p>
+              <p class="form-subtitle" style="margin-top: 0.25rem;">
+                Tell us where your interests align. Choose the opportunity most relevant to you — or start a broader conversation about working together in Mongolia.
+              </p>
+            </div>
+
+            <form id="partnership-interest-form" novalidate>
+              <div class="form-group">
+                <label for="field-name" class="form-label">Full Name <span class="required" aria-hidden="true">*</span></label>
+                <input type="text" id="field-name" name="name" class="form-input" placeholder="Your name" required autocomplete="name">
+              </div>
+
+              <div class="form-group">
+                <label for="field-organization" class="form-label">Organization / Institution <span class="required" aria-hidden="true">*</span></label>
+                <input type="text" id="field-organization" name="organization" class="form-input" placeholder="Organization name" required autocomplete="organization">
+              </div>
+
+              <div class="form-group">
+                <label for="field-email" class="form-label">Email Address <span class="required" aria-hidden="true">*</span></label>
+                <input type="email" id="field-email" name="email" class="form-input" placeholder="name@organization.org" required autocomplete="email">
+              </div>
+
+              <div class="form-group">
+                <span class="form-label">I’m interested in… <span class="required" aria-hidden="true">*</span> (Select one or more)</span>
+                <input type="hidden" id="field-interests" name="interestedIn" value="">
+                <div class="chips-group" role="group" aria-label="Partnership Interest Options">
+                  <button type="button" class="chip-btn chip-interest" data-value="Funding / Sponsorship" aria-pressed="false">Funding / Sponsorship</button>
+                  <button type="button" class="chip-btn chip-interest" data-value="Research / Expertise" aria-pressed="false">Research / Expertise</button>
+                  <button type="button" class="chip-btn chip-interest" data-value="Institutional Partnership" aria-pressed="false">Institutional Partnership</button>
+                  <button type="button" class="chip-btn chip-interest" data-value="Youth / Education" aria-pressed="false">Youth / Education</button>
+                  <button type="button" class="chip-btn chip-interest" data-value="Other" aria-pressed="false">Other</button>
+                </div>
+              </div>
+
+              <div class="form-group">
+                <span class="form-label">Which HWK opportunity interests you? (Optional)</span>
+                <input type="hidden" id="field-opportunity" name="opportunity" value="">
+                <div class="chips-group" role="group" aria-label="HWK Flagship Opportunity Options">
+                  <button type="button" class="chip-btn chip-opportunity" data-value="Biodiversity in the Field" aria-pressed="false">Biodiversity in the Field</button>
+                  <button type="button" class="chip-btn chip-opportunity" data-value="Connected Waters" aria-pressed="false">Connected Waters</button>
+                  <button type="button" class="chip-btn chip-opportunity" data-value="Living Rangelands" aria-pressed="false">Living Rangelands</button>
+                  <button type="button" class="chip-btn chip-opportunity" data-value="Broader Partnership / Collaboration" aria-pressed="false">Broader Partnership / Collaboration</button>
+                </div>
+              </div>
+
+              <div class="form-group">
+                <label for="field-notes" class="form-label">Anything you’d like us to know? (Optional)</label>
+                <textarea id="field-notes" name="notes" class="form-textarea" placeholder="Brief note on your organization's priorities or questions..."></textarea>
+              </div>
+
+              <button type="submit" class="btn btn-primary" id="form-submit-btn" style="width: 100%;">
+                Submit Partnership Interest
+              </button>
+
+              <p class="form-closing-note">
+                We are interested in practical collaboration — from programme funding and technical expertise to research, education, institutional partnership and knowledge exchange.
+              </p>
+
+              <div id="form-status-message" class="form-status" role="status" aria-live="polite"></div>
+            </form>
+          </div>
+
+          <!-- Contact Sidebar -->
+          <div class="contact-sidebar">
+            <h3 class="contact-title">Direct Contact</h3>
+            <ul class="contact-list">
+              <li class="contact-item">
+                <strong>Organization</strong>
+                <span>Hiking with Knowledge NGO</span>
+              </li>
+              <li class="contact-item">
+                <strong>Email</strong>
+                <a href="mailto:hikingwithknowledge@gmail.com">hikingwithknowledge@gmail.com</a>
+              </li>
+              <li class="contact-item">
+                <strong>Phone Numbers</strong>
+                <span>+976 9970 1806</span>
+                <span>+976 8820 4089</span>
+              </li>
+              <li class="contact-item">
+                <strong>Social Media</strong>
+                <span>Instagram: <strong>@hwk_mongolia</strong></span>
+              </li>
+            </ul>
+
+            <div class="cop17-info-box">
+              <h4>UNCCD COP17 Mongolia</h4>
+              <p><strong>Ulaanbaatar, Mongolia</strong></p>
+              <p>17–28 August 2026</p>
+              <p style="margin-top: 0.5rem; font-style: italic; color: var(--color-pine);">Restoring Land. Restoring Hope.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
   </main>
-  <footer><div class="wrap">Partner with HWK • Sponsor a Programme • Co-create a Project</div></footer>
+
+  <!-- ======================================================================
+       FOOTER
+       ====================================================================== -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <h3>Hiking with Knowledge NGO</h3>
+          <p>Connecting People, Nature & Knowledge in Mongolia</p>
+        </div>
+        <ul class="footer-nav">
+          <li><a href="#living-classroom">About</a></li>
+          <li><a href="#from-the-field">From the Field</a></li>
+          <li><a href="#our-model">Our Model</a></li>
+          <li><a href="#people">People</a></li>
+          <li><a href="#partnership-opportunities">Partnership Opportunities</a></li>
+          <li><a href="#resources">Resources</a></li>
+          <li><a href="#partnership-form">Contact</a></li>
+        </ul>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; 2026 Hiking with Knowledge NGO. Launched via One Million Leaders of Asia (2022). All rights reserved.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
 </body>
 </html>

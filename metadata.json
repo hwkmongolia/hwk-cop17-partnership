@@ -1,0 +1,6 @@
+{
+  "name": "HWK - COP17 Partnership Landing Page",
+  "description": "Partnership landing page for Hiking with Knowledge (HWK) Mongolia at UNCCD COP17",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
